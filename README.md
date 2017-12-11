@@ -11,3 +11,8 @@
 [3](src/3_Arrays.js) Arrays.  
 [3](src/3_Try,_Catch,_and_Finally.js) Try, Catch, and Finally.  
 [3](src/3_Throw.js) Throw.  
+[4](src/4_Create_a_Rectangle_Object.js) Create a Rectangle Object.  
+[4](src/4_Count_Objects.js) Count Objects.  
+[4](src/4_Classes.js) Classes.  
+[5](src/5_Inheritance.js) Inheritance.  
+[5](src/5_Template_Literals.js) Template Literals.  
