@@ -16,3 +16,4 @@
 [4](src/4_Classes.js) Classes.  
 [5](src/5_Inheritance.js) Inheritance.  
 [5](src/5_Template_Literals.js) Template Literals.  
+[5](src/5_Arrow_Functions.js) Arrow Functions.  
