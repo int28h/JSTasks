@@ -17,3 +17,4 @@
 [5](src/5_Inheritance.js) Inheritance.  
 [5](src/5_Template_Literals.js) Template Literals.  
 [5](src/5_Arrow_Functions.js) Arrow Functions.  
+[6](src/6_Bitwise_Operators.js) Bitwise Operators.  
