@@ -20,3 +20,7 @@
 [6](src/6_Bitwise_Operators.js) Bitwise Operators.  
 [6](src/6_JavaScript_Dates.js) JavaScript Dates.  
 [7](src/7_Regular_Expressions_I.js) Regular Expressions I.  
+[7](src/7_Regular_Expressions_II.js) Day 7: Regular Expressions II.  
+[7](src/7_Regular_Expressions_III.js) Regular Expressions III.  
+[8](src/8_Create_a_Button.js) Create a Button.  
+[8](src/8_Buttons_Container.js) Buttons Container.  

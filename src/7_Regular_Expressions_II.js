@@ -1,9 +1,9 @@
 /*
  * Complete the function in the editor below by returning a RegExp object, re, that matches any string s 
- * that begins and ends with the same vowel. Recall that the English vowels are a, e, i, o, and u.
- * Constraints
- * The length of string s is >= 3.
- * String s consists of lowercase letters only (i.e., [a-z]).
+ * satisfying both of the following conditions:
+ * String starts with the prefix Mr., Mrs., Ms., Dr., or Er.
+ * The remainder of string (i.e., the rest of the string after the prefix) consists of one or more 
+ * upper and/or lowercase English alphabetic letters (i.e., [a-z] and [A-Z]).
  */
 'use strict';
 
@@ -29,8 +29,8 @@ function readLine() {
     return inputString[currentLine++];
 }
 
-function regexVar() {
-    const re = new RegExp('^([aeiou]).*\\1$');
+function regexVar() { 
+    const re = new RegExp('^(?:Mr|Mrs|Ms|Dr|Er)\\.[a-zA-Z]+$');
     return re;
 }
 
@@ -38,5 +38,5 @@ function main() {
     const re = regexVar();
     const s = readLine();
     
-    console.log(re.test(s));
+    console.log(!!s.match(re));
 }
